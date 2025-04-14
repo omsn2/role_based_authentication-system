@@ -1,0 +1,45 @@
+.assign-department-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .assign-department-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .assign-department-container select,
+  .assign-department-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .assign-department-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0051ff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .assign-department-container button:hover {
+    background-color: #003bb3;
+  }
+  
+  .assign-department-container p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  

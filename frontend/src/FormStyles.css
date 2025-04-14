@@ -1,0 +1,57 @@
+/* src/FormStyles.css */
+
+.form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .form-container input,
+  .form-container select,
+  .form-container button {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .form-container input:focus,
+  .form-container select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+  }
+  
+  .form-container button {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-container p {
+    text-align: center;
+    font-size: 0.95rem;
+  }
+  

@@ -1,0 +1,36 @@
+.delete-employee-container {
+    padding: 20px;
+  }
+  
+  .status-msg {
+    margin-bottom: 15px;
+    color: green;
+    font-weight: bold;
+  }
+  
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d93636;
+  }
+  
