@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Schedule</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">📅</div>
+        <div class="nav-icons">
+          <div class="icon active">🏠</div>
+          <div class="icon">🗓️</div>
+          <div class="icon">⚙️</div>
+        </div>
+        <div class="profile">
+          <img src="https://i.pravatar.cc/40" alt="Profile" />
+        </div>
+      </div>
+  <div class="container">
+    <!-- Sidebar (Optional for now) -->
+    <!-- <aside class="sidebar">
+      <div class="logo"></div>
+      <ul>
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <!-- ... -->
+      </ul>
+    </aside> -->
+
+    <!-- Main content -->
+    <main class="main">
+      <div class="breadcrumbs">Scheduler &gt; <span>My Schedule</span></div>
+
+      <div class="header">
+        <h1>Schedule</h1>
+        <div class="header-controls">
+          <div class="date-picker">
+            <button>Today</button>
+            <button>&lt;</button>
+            <span>December 2024</span>
+            <button>&gt;</button>
+          </div>
+          <div class="view-switcher">
+            <button>Day</button>
+            <button>Week</button>
+            <button class="active">Month</button>
+            <button>Year</button>
+          </div>
+          <div class="actions">
+            <input type="text" placeholder="Search..." />
+            <button class="quick-add">Quick Add</button>
+          </div>
+        </div>
+      </div>
+      <!-- Weekday Header -->
+<div class="calendar">
+    <div class="calendar-header">
+      <div>Mon</div>
+      <div>Tue</div>
+      <div>Wed</div>
+      <div>Thu</div>
+      <div>Fri</div>
+      <div>Sat</div>
+      <div>Sun</div>
+    </div>
+  
+    <!-- Calendar Days -->
+    <div class="calendar-body">
+        <!-- Week 1 -->
+        <div class="day"><span class="date">30</span><div class="event">Flamenco Tech</div></div>
+        <div class="day"><span class="date">1</span><div class="event">Digital Blanket</div><div class="sub-event">Plumbing <span class="completed">completed</span></div><div class="workflow">Workflow <span class="fraction">7/12</span></div><ul class="task-list"><li>D12 - FL7 4:00 PM</li><li>GODAVARI 6:00 PM</li><li>W15 8:00 PM</li></ul></div>
+        <div class="day"><span class="date">2</span><div class="event">Flamenco Tech</div></div>
+        <div class="day"><span class="date">3</span><div class="event">Digital Blanket</div></div>
+        <div class="day"><span class="date">4</span><div class="event">Flamenco Tech</div></div>
+        <div class="day"><span class="date">5</span><div class="event sick-leave">Sick Leave</div></div>
+        <div class="day"><span class="date">6</span></div>
+      
+        <!-- Week 2 -->
+        <div class="day"><span class="date">7</span><div class="event">Digital Blanket</div></div>
+        <div class="day"><span class="date">8</span><div class="event">Flamenco Tech</div></div>
+        <div class="day"><span class="date">9</span><div class="event">Digital Blanket</div></div>
+        <div class="day"><span class="date">10</span><div class="event">Flamenco Tech</div></div>
+        <div class="day"><span class="date">11</span><div class="event">Digital Blanket</div></div>
+        <div class="day"><span class="date">12</span><div class="event">Digital Blanket</div><div class="sub-event">Plumbing <span class="completed">completed</span></div><div class="workflow">Workflow <span class="fraction">7/12</span></div><ul class="task-list"><li>D12 - FL7 4:00 PM</li><li>GODAVARI 6:00 PM</li><li>W15 8:00 PM</li></ul></div>
+        <div class="day"><span class="date">13</span></div>
+      
+        <!-- Week 3 -->
+        <div class="day"><span class="date">14</span><div class="event">Digital Blanket</div></div>
+        <div class="day"><span class="date">15</span><div class="event">Digital Blanket</div></div>
+        <div class="day"><span class="date">16</span><div class="event sick-leave">Sick Leave</div></div>
+        <div class="day"><span class="date">17</span><div class="event">Digital Blanket</div></div>
+        <div class="day active-day"><span class="date">18</span><div class="event">Digital Blanket</div><div class="sub-event">Plumbing <span class="completed">completed</span></div><div class="workflow">Workflow <span class="fraction">7/12</span></div><ul class="task-list"><li>D12 - FL7 4:00 PM</li><li>GODAVARI 6:00 PM</li><li>W15 8:00 PM</li></ul></div>
+        <div class="day"><span class="date">19</span><div class="event">Digital Blanket</div></div>
+        <div class="day"><span class="date">20</span></div>
+      
+        <!-- Week 4 -->
+        <div class="day"><span class="date">21</span><div class="event">DeepNet Labs</div></div>
+        <div class="day"><span class="date">22</span><div class="event">DeepNet Labs</div></div>
+        <div class="day"><span class="date">23</span><div class="event">Digital Blanket</div><div class="sub-event">Plumbing <span class="completed">completed</span></div><div class="workflow">Workflow <span class="fraction">7/12</span></div><ul class="task-list"><li>D12 - FL7 4:00 PM</li><li>GODAVARI 6:00 PM</li><li>W15 8:00 PM</li></ul></div>
+        <div class="day"><span class="date">24</span><div class="event">DeepNet Labs</div></div>
+        <div class="day"><span class="date">25</span><div class="event sick-leave">Sick Leave</div></div>
+        <div class="day"><span class="date">26</span><div class="event">DeepNet Labs</div></div>
+        <div class="day"><span class="date">27</span></div>
+      
+        <!-- Week 5 -->
+        <div class="day"><span class="date">28</span><div class="event">DeepNet Labs</div></div>
+        <div class="day"><span class="date">29</span><div class="event">DeepNet Labs</div></div>
+        <div class="day"><span class="date">30</span><div class="event">DeepNet Labs</div></div>
+        <div class="day"><span class="date">31</span><div class="event">DeepNet Labs</div></div>
+        <div class="day"><span class="date">1</span><div class="event">DeepNet Labs</div></div>
+        <div class="day"><span class="date">2</span><div class="event">DeepNet Labs</div></div>
+        <div class="day"><span class="date">3</span></div>
+      </div>
+      
+  </div>
+  
+
+      <!-- Calendar Grid comes next -->
+    </main>
+  </div>
+</body>
+</html>

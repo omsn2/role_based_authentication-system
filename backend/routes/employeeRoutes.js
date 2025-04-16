@@ -1,4 +1,3 @@
-// routes/employeeRoutes.js
 const express = require('express');
 const router = express.Router();
 
@@ -7,8 +6,8 @@ const {
   resetPassword,
   loginEmployee,
   forgotPassword,
-  setNewPassword,
-} = require('../controllers/employeeController'); // importing from index.js
+  setNewPassword
+} = require('../controllers/employeeController');
 
 router.post('/register', registerEmployee);
 router.post('/reset-password', resetPassword);

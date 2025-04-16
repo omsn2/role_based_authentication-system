@@ -82,3 +82,17 @@
 2025-04-14 09:36:58 [INFO]: Password reset successfully for chandankm@digitalblanket.ai
 2025-04-14 10:52:46 [INFO]: Forgot password link sent to personal email: omkar.sn@digitalblanket.ai
 2025-04-14 10:53:32 [INFO]: Password updated via forgot password flow for omkar.sn@digitalblanket.ai
+2025-04-14 12:19:10 [INFO]: Employee registered: COM2025IT0000020 | Email: kanishk6381782715@gmail.com
+2025-04-14 12:20:00 [WARN]: Registration failed: Email already exists - kanishk6381782715@gmail.com
+2025-04-14 12:20:22 [ERROR]: Registration error: duplicate key value violates unique constraint "employees_company_email_key"
+2025-04-14 12:21:00 [ERROR]: Registration error: duplicate key value violates unique constraint "employees_company_email_key"
+2025-04-14 12:28:39 [ERROR]: Registration error: duplicate key value violates unique constraint "employees_company_email_key"
+2025-04-16 16:04:05 [ERROR]: Login error:
+2025-04-16 16:09:02 [ERROR]: Login error:
+2025-04-16 16:12:49 [ERROR]: Login error:
+2025-04-16 16:18:07 [ERROR]: Login error:
+2025-04-16 16:25:10 [ERROR]: Registration error: pool.query is not a function
+2025-04-16 16:28:30 [ERROR]: Registration error: pool.query is not a function
+2025-04-16 16:32:30 [INFO]: Employee registered: COM2025IT0000001 | Email: omsn529@gmail.com
+2025-04-16 16:35:54 [INFO]: Password reset successfully for omkarn@digitalblanket.ai
+2025-04-16 16:44:45 [ERROR]: Login error:

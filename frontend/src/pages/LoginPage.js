@@ -34,7 +34,7 @@ const LoginPage = () => {
         localStorage.setItem("token", data.token);
         localStorage.setItem("role", formData.role);
 
-
+        // Conditional redirects based on role
         if (formData.role === "admin") {
           navigate("/admin");
         } else if (formData.role === "manager") {
@@ -43,11 +43,11 @@ const LoginPage = () => {
           navigate("/employee");
         }
       } else {
-        alert(data.message || "Login failed");
+        alert(data.message || "Login failed"); // Show server message
       }
     } catch (error) {
       console.error("Login error:", error);
-      alert("An error occurred during login.");
+      alert("An error occurred during login."); // Handle error in case of network issues
     }
   };
 
